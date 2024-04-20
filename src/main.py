@@ -17,7 +17,6 @@ def processar_entrada(nome_arquivo):
 
         # Lê os estados de aceitação
         estados_aceitacao_line = f.readline().strip().split(' ')
-        num_estados_aceitacao = int(estados_aceitacao_line[0])
         estados_aceitacao = [int(x) for x in estados_aceitacao_line[1:]]
 
         # Lê o número de transições
@@ -86,7 +85,7 @@ def simular_automato(estados, simbolos, estados_aceitacao, transicoes, cadeia_en
         print("Estados atuais após o símbolo", simbolo, ":", estados_atuais)  # Imprime os estados atuais após o processamento do símbolo
 
     # Verifica se algum dos estados finais é um estado de aceitação
-    resultado = any(estado_final in estados_aceitacao for _, _, estado_final in transicoes)
+    resultado = any(estado in estados_aceitacao for estado in estados_atuais)
 
     print("Resultado da simulação:", resultado)  # Imprime o resultado da simulação
     return resultado

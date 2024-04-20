@@ -1,3 +1,4 @@
 src/build/
 src/dist/
 simulador_af/
+*.spec
