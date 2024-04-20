@@ -28,9 +28,9 @@ O código do simulador está organizado da seguinte forma:
 
 1. **Importação de bibliotecas:** As bibliotecas necessárias para o funcionamento do programa são importadas no início do código.
 2. **Definição de funções:** O código principal é dividido em funções modulares, cada uma com uma responsabilidade específica:
-   - `process_input()`: Lê o arquivo de entrada e armazena as informações do autômato em estruturas de dados adequadas.
-   - `simulate()`: Simula a execução do autômato para uma cadeia de entrada específica.
-   - `generate_output()`: Gera o arquivo de saída com os resultados da simulação.
+   - `processar_entrada()`: Lê o arquivo de entrada e armazena as informações do autômato em estruturas de dados adequadas.
+   - `simular_automato()`: Simula a execução do autômato para uma cadeia de entrada específica.
+   - `gerar_saida()`: Gera o arquivo de saída com os resultados da simulação.
 3. **Bloco principal (`if __name__ == '__main__':`)**: O bloco principal do programa controla a execução das funções, lendo o arquivo de entrada, simulando o autômato para cada cadeia de entrada e gerando o arquivo de saída com os resultados.
 
 **Eficiência da Solução:**
