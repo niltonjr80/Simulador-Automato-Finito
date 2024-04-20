@@ -8,8 +8,7 @@ Este manual fornece instruções detalhadas sobre como utilizar o simulador univ
 
 Para utilizar o simulador, você precisará dos seguintes requisitos:
 
-- **Sistema Operacional:** O simulador foi testado e funciona em diversos sistemas operacionais Windows.
-- **Python:** O simulador foi desenvolvido em Python 3.x. Certifique-se de ter a versão correta do Python instalada em seu sistema. Pode ser necessário verificar a documentação do simulador para a versão específica recomendada.
+- **Python:** O simulador foi desenvolvido em Python 3.x.
 - **Arquivos do Simulador:** Você precisará baixar os seguintes arquivos:
   - `main.py`: Código fonte do programa.
   - `simulate.exe` (Windows) ou outro executável dependendo do sistema operacional: Arquivo executável do programa.
